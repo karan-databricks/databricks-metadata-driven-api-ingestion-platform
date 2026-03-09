@@ -1,0 +1,7 @@
+{
+  "api_name": "customer_api",
+  "base_url": "https://mock-api.com/customers",
+  "pagination_type": "page_number",
+  "page_size": 100,
+  "auth_type": "oauth2"
+}
