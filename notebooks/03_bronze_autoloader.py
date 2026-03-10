@@ -29,6 +29,7 @@ bronze_stream = (
         .format("cloudFiles")
         .option("cloudFiles.format", "json")
         .option("cloudFiles.schemaLocation", schema_location)
+        .option("multiline", ""true)
         .option("cloudFiles.inferColumnTypes", "true")
         .load(landing_path)
 )
